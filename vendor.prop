@@ -79,6 +79,7 @@ ro.surface_flinger.running_without_sync_framework=true
 
 # Dalvik
 dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt
+dalvik.vm.dex2oat64.enabled=true
 
 # EGL
 ro.hardware.egl=mali
