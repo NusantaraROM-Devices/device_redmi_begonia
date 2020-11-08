@@ -73,3 +73,8 @@ wifi.direct.interface=p2p0
 
 # Zygote Preforking
 persist.device.config.runtime_native.uasp_pool_enabled=true
+
+# Blur
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=1
+ro.sf.blurs_are_expensive=1
