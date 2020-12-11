@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- AncientOS Device Info -->
+    <string name="ancient_device_name_summary">Redmi Note 8 Pro</string>
+    <string name="ancient_chipset_type_summary">Mediatek Helio G90T</string>
+    <string name="ancient_gpu_summary">Mali G76 MC4</string>
+    <string name="ancient_camera_mp_summary">64+8+2+2|20 MP</string>
+    <string name="ancient_screen_type_summary">IPS 6.53 Screen</string>
+
+    <!-- AncientOS About Maintainer Info -->
+    <string name="maintainer_name">Sambit</string>
+
+</resources>
