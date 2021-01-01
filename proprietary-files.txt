@@ -155,6 +155,10 @@ vendor/lib64/hw/audio.usb.default.so
 vendor/lib64/hw/audio.usb.mt6785.so
 vendor/lib64/hw/audio_policy.stub.so
 
+# Camera | From bomb-user 11 RP1A.200720.011 20.11.23 release-keys
+lib/libcameraservice.so|9dfa64b039d8735598fae8b487605e59ae24e9b0 
+system_ext/lib/vendor.mediatek.hardware.camera.atms@1.0.so|f25234baaafb9ed54613f5f13a4018bf4aa0aaff
+
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek
 vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml
