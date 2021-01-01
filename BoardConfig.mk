@@ -159,5 +159,9 @@ BOARD_VNDK_RUNTIME_DISABLE := true
 #BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 #BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
+# Shims
+TARGET_LD_SHIM_LIBS := \
+    system/lib/libcameraservice.so|libmedia_jni_shim.so
+
 # Inherit from the proprietary version
 -include vendor/redmi/begonia/BoardConfigVendor.mk
