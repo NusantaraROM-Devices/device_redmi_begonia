@@ -2,11 +2,29 @@
   {
     "repository": "kernel_xiaomi_mt6785",
     "target_path": "kernel/xiaomi/mt6785",
-    "branch": "ten"
+    "branch": "eleven"
   },
   {
     "repository": "vendor_redmi_begonia",
     "target_path": "vendor/redmi/begonia",
-    "branch": "ten"
+    "branch": "eleven"
+  },
+  {
+    "remote": "github",
+    "repository": "iitachiuchiha/vendor_mediatek_interfaces",
+    "target_path": "vendor/mediatek/interfaces",
+    "branch": "eleven"
+  },
+  {
+    "remote": "github",
+    "repository": "iitachiuchiha/vendor_mediatek_ims",
+    "target_path": "vendor/mediatek/ims",
+    "branch": "eleven"
+  },
+  {
+    "remote": "github",
+    "repository": "iitachiuchiha/vendor_mediatek_opensource",
+    "target_path": "vendor/mediatek/opensource",
+    "branch": "eleven"
   }
 ]
