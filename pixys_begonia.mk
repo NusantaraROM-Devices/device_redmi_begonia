@@ -29,6 +29,7 @@ $(call inherit-product, device/redmi/begonia/mtk-hals.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+$(call inherit-product, vendor/ANXCamera/config.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia

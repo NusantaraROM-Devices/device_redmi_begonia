@@ -26,5 +26,11 @@
     "repository": "iitachiuchiha/vendor_mediatek_opensource",
     "target_path": "vendor/mediatek/opensource",
     "branch": "eleven"
+  },
+  {
+    "remote": "github",
+    "repository": "iitachiuchiha/vendor_ANXCamera",
+    "target_path": "vendor/ANXCamera",
+    "branch": "eleven"
   }
 ]
