@@ -37,7 +37,7 @@ PRODUCT_NAME := ancient_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
-
+ANCIENT_OFFICIAL := true
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
