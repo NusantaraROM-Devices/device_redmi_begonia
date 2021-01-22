@@ -20,7 +20,7 @@ ro.camera.sensor.highres.0.max=9280:6944
 ro.camera.highres.packagelist=org.lineageos.snap
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,com.google.camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera
-vendor.camera.aux.packageblacklist=org.telegram.messenger,com.microsoft.teams,com.discord
+vendor.camera.aux.packageblacklist=org.thunderdog.challegram,org.telegram.messenger,com.microsoft.teams,com.discord
 
 # Display
 ro.opengles.version=196610
@@ -72,8 +72,3 @@ wifi.direct.interface=p2p0
 
 # Zygote Preforking
 persist.device.config.runtime_native.uasp_pool_enabled=true
-
-# Blur
-ro.surface_flinger.supports_background_blur=1
-persist.sys.sf.disable_blurs=1
-ro.sf.blurs_are_expensive=1
