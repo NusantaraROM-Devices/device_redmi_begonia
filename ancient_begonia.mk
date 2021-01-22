@@ -28,12 +28,12 @@ $(call inherit-product, device/redmi/begonia/device.mk)
 $(call inherit-product, device/redmi/begonia/mtk-hals.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 $(call inherit-product, vendor/ANXCamera/config.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := pixys_begonia
+PRODUCT_NAME := ancient_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
@@ -46,9 +46,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="begonia"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# GApps
-TARGET_GAPPS_ARCH := arm64
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080

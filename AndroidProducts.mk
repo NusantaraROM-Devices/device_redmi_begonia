@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_begonia.mk
+    $(LOCAL_DIR)/ancient_begonia.mk
 
 COMMON LUNCH CHOICES := \
-    pixys_begonia-userdebug \
-    pixys_begonia-eng
+    ancient_begonia-userdebug \
+    ancient_begonia-eng
