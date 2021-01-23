@@ -39,14 +39,21 @@ PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 ANCIENT_OFFICIAL := true
 TARGET_USES_BLUR := true
-BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys"
+
+BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RQ1A.210105.002/6985033:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ1A.201205.010 6953398 release-keys" \
+    PRIVATE_BUILD_DESC="sunfish-user 11 RQ1A.201205.002 6985033 release-keys" \
     PRODUCT_NAME="begonia" \
     TARGET_DEVICE="begonia"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRIVATE_BUILD_DESC="$(BUILD_DESCRIPTION)"
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
