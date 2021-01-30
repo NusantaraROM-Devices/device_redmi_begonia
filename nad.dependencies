@@ -1,6 +1,6 @@
 [
   {
-    "remote": "github",
+    " ": "github",
     "repository": "kernel_xiaomi_mt6785",
     "target_path": "kernel/xiaomi/mt6785",
     "branch": "11"
