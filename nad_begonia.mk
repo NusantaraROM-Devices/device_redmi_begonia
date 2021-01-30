@@ -28,23 +28,26 @@ $(call inherit-product, device/redmi/begonia/device.mk)
 $(call inherit-product, device/redmi/begonia/mtk-hals.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 $(call inherit-product, vendor/ANXCamera/config.mk)
-$(call inherit-product, vendor/dolby/config.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := ancient_begonia
+PRODUCT_NAME := nad_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 8 Pro
 PRODUCT_MANUFACTURER := Xiaomi
 ANCIENT_OFFICIAL := true
 TARGET_USES_BLUR := true
 
-BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RQ1A.210105.002/6985033:user/release-keys"
+# Official tag
+NAD_BUILD_TYPE := OFFICIAL
+USE_PIXEL_CHARGING := true
+
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="sunfish-user 11 RQ1A.201205.002 6985033 release-keys" \
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ1A.201205.010 6953398 release-keys" \
     PRODUCT_NAME="begonia" \
     TARGET_DEVICE="begonia"
 
