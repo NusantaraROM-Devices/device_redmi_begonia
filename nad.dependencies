@@ -1,7 +1,7 @@
 [
 {
     "remote": "github",
-    "repository": "yaudahlah_device_redmi_begonia"
+    "repository": "yaudahlah_device_redmi_begonia",
     "target_path": "device/redmi/begonia",
     "branch": "11"
    }
