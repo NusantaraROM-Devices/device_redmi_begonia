@@ -1,12 +1,6 @@
 [
   {
     "remote": "github",
-    "repository": "yaudahlah/device_redmi_begonia",
-    "target_path": "device/redmi/begonia",
-    "branch": "11"
-   },
-  {
-    "remote": "github",
     "repository": "yaudahlah/kernel_xiaomi_mt6785",
     "target_path": "kernel/xiaomi/mt6785",
     "branch": "11"
