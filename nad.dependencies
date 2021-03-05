@@ -9,19 +9,26 @@
     "target_path": "vendor/redmi/begonia"
   },
   {
-    "repository" : "vendor_redmi_begonia-firmware",
+    "remote": "github",
+    "repository" : "PotatoDevices/vendor_redmi_begonia-firmware",
     "target_path": "vendor/redmi/begonia-firmware"
+    "branch"     : "eleven"
   },
   {
-    "repository" : "vendor_mediatek_opensource",
+    "remote": "github",
+    "repository" : "iitachiuchiha/vendor_mediatek_opensource",
     "target_path": "vendor/mediatek/opensource"
+    "branch"     : "eleven"
   },
   {
-    "repository" : "vendor_mediatek_interfaces",
+    "remote": "github",
+    "repository" : "iitachiuchiha/vendor_mediatek_interfaces",
     "target_path": "vendor/mediatek/interfaces"
+    "branch"     : "eleven"
   },
   {
-    "repository" : "Descendant-Devices/vendor_mediatek_ims",
+    "remote": "github",
+    "repository" : "iitachiuchiha/vendor_mediatek_ims",
     "target_path": "vendor/mediatek/ims",
     "branch"     : "eleven"
   }
